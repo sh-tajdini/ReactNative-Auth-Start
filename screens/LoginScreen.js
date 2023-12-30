@@ -16,7 +16,7 @@ function LoginScreen() {
     } catch (error) {
       Alert.alert('Authentication Failed!', 'Could not log you in. Please check your credentials and try again.');
     }
-   
+   //
     setIsAuthenticating(false);
   }
 
