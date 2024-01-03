@@ -70,7 +70,7 @@ function Root(){
   const [isTryingLogin, setIsTryingLogin] = useState(true);
   const authCtx= useContext(AuthContext);
 
- 
+ //
   useEffect(() => {
     SplashScreen.preventAutoHideAsync();
     async function fetchToken() {
